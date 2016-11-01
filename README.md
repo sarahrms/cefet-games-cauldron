@@ -23,7 +23,8 @@ Este exercício é composto por 3 etapas:
 
 1. Integrar o efeito de borbolha (que já está pronto, no
   arquivo `bolhas.pfx`) da sopa na aplicação
-1. Estilizar o efeito do fogo para criar a poção mágica que você precisa:
+1. Estilizar o efeito do fogo para criar a poção mágica que você precisa (
+  escolha uma ou duas):
   - Poção do amor: fogo vermelho, com movimentação selvagem, traz a pessoa
     amada em 5 dias
   - Poção da realeza: fogo amarelado, intensidade alta mas pouco movimento,
@@ -70,17 +71,20 @@ A LibGDX possui os seguintes conceitos:
 ## FAQ
 
 1. Como posso visualizar e criar um efeito de partícula?
-  - Na página de [ferramentas][tools] da LibGDX há um _link_ para o editor de partículas 3D. [Baixe-o][3d-editor].
+  - Na página de [ferramentas][tools] da LibGDX há um _link_ para o
+    editor de partículas 3D. [Baixe-o][3d-editor].
   - Findo o _download_:
     - no Windows basta executar o arquivo `.jar`
-    - no Linux, defina o arquivo `.jar` como executável e então execute-o pela interface gráfica ou pela linha de comando:
+    - no Linux, defina o arquivo `.jar` como executável e então execute-o
+      pela interface gráfica ou pela linha de comando:
 
       ```
       chmod +x runnable-3D-particles.jar
       java -jar runnable-3D-particles.jar
       ```
 1. Como instancio efeitos de partículas dentro do jogo?
-  - Siga os passos descritos no código ou então leia [este tutorial oficial][tutorial]
+  - Siga os passos descritos no próprio código ou então
+    leia [este tutorial oficial][tutorial]
 
 [tools]: https://libgdx.badlogicgames.com/tools.html
 [3d-editor]: https://libgdx.badlogicgames.com/nightlies/runnables/runnable-3D-particles.jar
