@@ -112,9 +112,12 @@ public class CauldronGame extends ApplicationAdapter {
 
         // instancia, configura e dá início ao efeito das bolhas
         // use o campo ParticleEffect bolhas definido na linha #38
-        // ...
-        // ...
-        // ...
+        // pocao do amor //
+        bolhas = ((ParticleEffect) assets.get("bolhas.pfx")).copy();
+        bolhas.init();
+        bolhas.start();
+        bolhas.translate(new Vector3(0, 1f, 0));
+        sistemaParticulas.add(bolhas);
         
         // começa a música
         musica.setLooping(true);
